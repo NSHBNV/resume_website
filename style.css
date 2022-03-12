@@ -1,6 +1,6 @@
 body{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #9e9e9e;
+    background-color: #343434;
 }
 h1{
     color: #560319;
@@ -9,11 +9,22 @@ h1{
 p{
     color: black;
     text-align: center;
+    padding: 10px;
 }
-div{
-    color: black;
+.centered{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom:5%;
+    width: 66%;
+    max-width: 100%;
+    background-color: #676767;
+    padding-left: 15%;
+    padding-right: 15%;
+    min-height: 80vh;
 }
 img{
+    padding: 20px;
     border-radius: 50%;
     display: block;
     margin: auto;
